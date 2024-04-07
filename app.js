@@ -1,10 +1,9 @@
-// Modules - Encapsulated code (only share minimum)
-// CommonJS, every file is module (by default)
+const { readFile, writeFile} = require("fs");
 
-const names = require("./4-names");
-const sayHi = require("./5-utils")
-
-
-sayHi("Susan")
-sayHi(names.peter)
-sayHi(names.john)
+readFile("./content/first.txt", "utf8", (err, result) => {
+    if (err) {
+        console.log(err)
+        return
+    }
+    console.log(result)
+})
