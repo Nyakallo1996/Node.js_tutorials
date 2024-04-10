@@ -1,0 +1,22 @@
+{
+  "name": "node.js_tutorials",
+  "version": "1.0.0",
+  "description": "node crush course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyakallo1996/Node.js_tutorials.git"
+  },
+  "author": "Nyakallo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nyakallo1996/Node.js_tutorials/issues"
+  },
+  "homepage": "https://github.com/Nyakallo1996/Node.js_tutorials#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
